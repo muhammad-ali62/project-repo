@@ -1,0 +1,405 @@
+body {
+    font-family: 'Source Sans Pro';
+    margin: 0;
+    font-family: Arial, sans-serif;
+
+}
+
+.header-bar {
+  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    background-color:white;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+
+}
+
+.images {
+    display: flex;
+    align-items: center;
+}
+
+.profile img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+    border: 2px solid #6c63ff;
+}
+
+.profile span {
+    font-size: 18px;
+    font-weight: 790;
+    color: #444;
+    letter-spacing: 0.9px;
+    text-align: center;
+}
+
+li {
+    font-weight: 790;
+    letter-spacing: 1px;
+    font-size: 16px;
+    padding: 8px;
+    color: #444;
+    display: inline;
+    margin-right: 20px;
+}
+
+h1 {
+ background-color:#fff;   
+padding-top: 100px;
+font-size: 3rem;
+text-transform: uppercase;
+letter-spacing: 3px;
+text-align: center;
+color: #111;
+font-weight: 800
+}
+
+pre {
+    
+    font-size: 1.2rem;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+button {
+    margin-top: 40px;
+    margin-left: 550px;
+    letter-spacing: 1.5px;
+    display: inline-block;
+    padding: 20px 60px;
+    background: #7843E9;
+    color: white;
+    font-size: 13px;
+    font-weight: 800;
+    border-radius: 5px;
+
+    text-transform: uppercase;
+
+}
+
+
+.social-icons {
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+    background-color: solid white;
+    top: 50%;
+    left: 20px;
+    transform: translateY(-78%);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 50px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+.social-icons .icon {
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    border-radius: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #333;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+
+
+.social-icons .icon:hover {
+    
+    transform: scale(1.1);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+}
+
+.social-icons .icon.linkedin:hover {
+
+    background-color: plum;
+    color: #fff;
+}
+
+.social-icons .icon.twitter:hover {
+    background-color: plum;
+    color: #fff;
+}
+
+.social-icons .icon.youtube:hover {
+    background-color: plum;
+    color: #fff;
+}
+
+.social-icons .icon.github:hover {
+    background-color:plum;
+    color: #fff;
+}
+
+.social-icons .icon.dev:hover {
+    background-color: plum;
+    color: #fff;
+        }        
+.home{
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+section {
+    margin: 0;
+    padding: 0;
+}        
+
+h2 {
+    text-transform: uppercase;
+    padding-top: 100px;
+    text-align: center;
+    letter-spacing: 0.2rem;
+    font-size: 45px;
+    font-weight: 750;
+
+
+}   
+
+pre {
+    text-align: center;
+}
+
+h3 {
+    padding-top: 67px;
+    margin: 55px;
+    font-size: large;
+    font-weight: bold;
+    padding-right: 10%;
+    text-align: left;
+}
+
+.about-text {
+    flex: 1;
+    max-width: 100vh;
+    
+}
+
+.about-text h3 {
+
+
+color: solid black;
+font-size: 20px;
+font-weight: bold;
+box-shadow: none;
+}
+
+.about-text p {
+    margin-left: 55px;
+    font-size: 15px;
+    color: #444;
+    line-height: 1.8;
+    text-align: left;
+
+
+}
+
+
+.skills-section {
+    
+    /* font-family: Arial, sans-serif; */
+    background-color: #f9f9f9;
+    text-align: left ;
+    margin: 30px ;
+    padding: 0px;
+    background-color: white;
+    width: 450px; 
+    border-radius: 10px;
+    position: relative;
+    left: 50%;
+    top: -550px; 
+    transform: translateX(70%); 
+
+}
+
+.skills-section h3 {
+
+    letter-spacing: 0.1rem;
+    margin-bottom: 20px;
+    color: solid black;
+    font-size: 20px;
+    font: weight 200px;
+}
+
+.skills-container {
+    color: #333;
+    font-size: 12px;
+    padding-top: 38px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    gap: 20px;
+}
+
+.skill {
+    font-size: 0.8;
+    color: #333;
+    background-color: #eaeaea;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+.skill:hover {
+    background-color: #ddd;
+
+} 
+.projects {
+
+    gap: 10px;
+    /* flex-wrap: wrap; */
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+.projects h2 {
+    font-size: 2.2rem;
+    padding-top: 100px;
+    text-align:top;
+    padding-bottom: 100p;
+    text-transform: uppercase;
+    letter-spacing: 1.3px;
+    box-shadow: none;
+    color: #111;
+    font-weight: 750;
+
+}
+
+.projects pre {
+    padding-top: 30px;
+    padding-bottom: 100p;
+    text-align: center;
+    margin: auto;
+    color:#444;
+    line-height: 25px;
+}
+
+.projects img {
+    padding-top: 1rem;   
+    width: 55vw;
+    height: 400px;
+
+
+}
+
+.projects h3 {
+    text-align: left;
+    margin-bottom: 15px;
+   letter-spacing: 0.1rem;
+    font-size:30px;
+    color: black;
+} 
+
+.projects p {
+    font-size: 16px;
+    line-height: 35px;
+    color: #444;
+            
+
+        }
+
+.project1 {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.project2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.project3 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.case-study-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #6c63ff;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.case-study-button:hover {
+    background-color: #5546d0;
+}
+.form {
+    background-color: whitesmoke;
+    height: 500px;
+    justify-content: space-between;
+    margin: 70px;
+    border: black;
+    padding: 50px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+
+}
+footer {
+    background-color: #000;
+    color:white;
+    height: 350px;
+}
+.footer-left {
+    text-align: left;
+}
+.footer-left h3 {
+    font-size: 23px;
+    letter-spacing: 0.1rem;
+    margin-bottom: -20px;
+}
+.footer-left pre {
+    margin-top: 30px;
+    line-height: 25px;
+    background-color: black;
+    text-align: left;
+    padding-left: 50px;
+    font-size: 15px;
+    color:white;
+
+    
+}
+
+.footer-social {
+    font-size: 90px;
+    position: relative;
+    top: -220px;
+    text-align: right;    
+}
+.footer-social h3 {
+    text-align: right;
+   letter-spacing: 0.1rem;
+    margin-bottom: 0px;
+    font-size: 25px;
+    padding-left: 50px;
+
+}
+
+.footer-bottom {
+    background-color: #000;
+    border-top: 1px solid #444;
+    padding-top: 20px;
+    font-size: 12px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.footer-bottom a {
+    color: white;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.footer-bottom a:hover {
+    
+    text-decoration: underline;
+}
